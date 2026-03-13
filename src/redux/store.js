@@ -12,6 +12,6 @@ const store = configureStore({
 });
 // redux store -> default middleware -> saga middleware
 
-sagaMiddleware.run(rootSaga);
+sagaMiddleware.run(rootSaga); // starts listening for actions
 
 export default store;
